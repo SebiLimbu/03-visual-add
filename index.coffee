@@ -3,18 +3,15 @@
 exports.add = (arr) ->
   # Put your solution here
 
-<<<<<<< HEAD
 
   size = arr.length
   newArray = []
   i = 0
-
   while i < size
-    if i is size - 1
-      newArray[i] = arr[i] + 1
-    else
-      newArray[i] = arr[i]
+    newArray[i] = arr[i]
     i++
-  newArray
-=======
->>>>>>> origin/master
+  result = newArray.join('')
+  sum = parseInt(result) + 1
+  sum
+
+
