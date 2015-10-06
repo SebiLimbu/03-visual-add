@@ -3,15 +3,15 @@
 exports.add = (arr) ->
   # Put your solution here
 
-sequence = (n) ->
-  size = n.length
+
+  size = arr.length
   newArray = []
   i = 0
 
   while i < size
     if i is size - 1
-      newArray[i] = n[i] + 1
+      newArray[i] = arr[i] + 1
     else
-      newArray[i] = n[i]
+      newArray[i] = arr[i]
     i++
   newArray
