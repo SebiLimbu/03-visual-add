@@ -4,8 +4,8 @@ exports.add = (arr) ->
   # Put your solution here
 
 
-
-   size = arr.length
+ size = arr.length
+  sum = 0
   newArray = []
   i = 0
   while i < size
