@@ -3,16 +3,11 @@
 exports.add = (arr) ->
   # Put your solution here
 
-
   size = arr.length
-  newArray = []
-  i = 0
-  while i < size
-    newArray[i] = arr[i]
-    i++
-  result = newArray.join('')
+  result = arr.join('')
   sum = parseInt(result) + 1
-  sum
+  array = sum.toString().split('')
+  array
 
 
 
