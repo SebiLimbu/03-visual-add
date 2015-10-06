@@ -3,7 +3,7 @@
 exports.add = (arr) ->
   # Put your solution here
 
-<<<<<<< HEAD
+
 
   size = arr.length
   newArray = []
@@ -16,5 +16,4 @@ exports.add = (arr) ->
       newArray[i] = arr[i]
     i++
   newArray
-=======
->>>>>>> origin/master
+
