@@ -3,17 +3,14 @@
 exports.add = (arr) ->
   # Put your solution here
 
-
-
-  size = arr.length
+sequence = (n) ->
+  size = n.length
   newArray = []
   i = 0
-
   while i < size
-    if i is size - 1
-      newArray[i] = arr[i] + 1
-    else
-      newArray[i] = arr[i]
+    newArray[i] = n[i]
     i++
-  newArray
+  result = newArray.join('')
+  sum = parseInt(result) + 1
+  sum
 
